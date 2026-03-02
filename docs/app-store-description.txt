@@ -1,0 +1,130 @@
+===========================
+App Store 掲載情報
+===========================
+
+【アプリ名】
+Quick Notion
+
+【サブタイトル】(30文字以内)
+テキストをNotionにすばやく送信
+
+【カテゴリ】
+仕事効率化 (Productivity)
+
+【価格】
+有料（要設定）
+
+===========================
+説明文（日本語）
+===========================
+
+思いついたことを、すぐにNotionへ。
+
+Quick Notionは、テキストをNotionデータベースにすばやく送信するためのアプリです。
+Notionアプリを開いてデータベースを探して…という手間なく、思いついたアイデアやタスクをその場でサッと記録できます。
+
+■ 主な機能
+
+・ワンタップ送信
+テキストを入力して「送信」をタップするだけ。余計な操作は一切ありません。
+
+・複数の送信先
+タスク管理、読書メモ、買い物リストなど、複数のNotionデータベースを登録して簡単に切り替えられます。
+
+・送信履歴
+過去の送信内容を確認、コピー、再送信できます。
+
+・ダーク/ライトテーマ
+目に優しいダークモードと、明るいライトモードを選択できます。
+
+■ こんな方におすすめ
+
+・Notionをタスク管理やメモに使っている方
+・移動中やちょっとした空き時間にサッとメモを取りたい方
+・Notionアプリを開く手間を省きたい方
+・複数のデータベースに素早く書き込みたい方
+
+■ ご利用の前に
+
+本アプリのご利用には、Notion Integrationの作成が必要です。
+セットアップ方法はアプリ内の「使い方ガイド」で詳しく説明しています。
+
+1. Notionでインテグレーションを作成
+2. トークンをアプリに入力
+3. データベースとインテグレーションを接続
+4. データベースIDをアプリに設定
+
+※ 本アプリはNotion公式アプリではありません。Notion APIを利用した個人開発アプリです。
+
+===========================
+説明文（英語）
+===========================
+
+Send text to Notion, instantly.
+
+Quick Notion lets you quickly send text to your Notion databases. No need to open the Notion app, find the right database, and create a new entry — just type and tap send.
+
+■ Key Features
+
+• One-Tap Send
+Type your text and tap "Send." That's it. No extra steps.
+
+• Multiple Destinations
+Register multiple Notion databases — task management, reading notes, shopping lists — and switch between them easily.
+
+• Send History
+Review, copy, or resend your past entries.
+
+• Dark / Light Theme
+Choose between a comfortable dark mode and a bright light mode.
+
+■ Perfect For
+
+• Notion users who manage tasks and notes
+• Anyone who wants to jot down ideas on the go
+• People who want to skip the hassle of navigating the Notion app
+• Users who write to multiple databases frequently
+
+■ Before You Start
+
+This app requires a Notion Integration to function.
+The in-app setup guide walks you through the process:
+
+1. Create a Notion Integration
+2. Enter the token in the app
+3. Connect your database to the integration
+4. Add the database ID to the app
+
+Note: This app is not affiliated with Notion. It is an independently developed app that uses the Notion API.
+
+===========================
+キーワード (100文字以内)
+===========================
+
+Notion,メモ,タスク,送信,データベース,クイック,ノート,todo,快速,記録
+
+===========================
+プライバシーポリシー（要点）
+===========================
+
+・本アプリはユーザーのデータを外部サーバーに送信しません
+・Notionトークンとデータベース情報はデバイス内にのみ保存されます
+・テキストの送信はユーザーのデバイスからNotion APIに直接行われます
+・アナリティクスや広告SDKは使用していません
+
+===========================
+サポートURL
+===========================
+
+（GitHubリポジトリやサポートページのURLを設定してください）
+
+===========================
+スクリーンショットの推奨構成
+===========================
+
+1枚目: メイン画面（テキスト入力状態、送信先セレクター表示）
+2枚目: 送信成功のトースト表示
+3枚目: 送信先切り替えモーダル
+4枚目: 設定画面（送信先一覧）
+5枚目: 送信履歴画面
+6枚目: ウェルカム画面（初期セットアップ）

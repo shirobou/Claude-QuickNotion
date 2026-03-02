@@ -1,30 +1,52 @@
 {
   "expo": {
-    "name": "Claude-Inbox-Notion",
-    "slug": "Claude-Inbox-Notion",
+    "name": "Quick Notion",
+    "slug": "quick-notion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "scheme": "quicknotion",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#191919"
     },
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kokor.quicknotion",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-localization",
+      [
+        "expo-quick-actions",
+        {
+          "iosActions": [
+            {
+              "id": "new_memo",
+              "title": "新規メモ",
+              "icon": "symbol:square.and.pencil"
+            },
+            {
+              "id": "history",
+              "title": "送信履歴",
+              "icon": "symbol:clock.arrow.circlepath"
+            }
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0353172d-6500-4fbd-b318-35e28bc48947"
+      }
+    },
+    "owner": "shimataka"
   }
 }
