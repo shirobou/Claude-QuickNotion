@@ -880,7 +880,7 @@ export default function SettingsScreen({
         {/* About */}
         <View style={styles.section}>
           <Text style={[styles.versionText, { color: colors.textMuted }]}>
-            Quick Notion v1.0.0
+            Notion Memo v1.0.0
           </Text>
         </View>
       </ScrollView>

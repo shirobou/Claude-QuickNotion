@@ -142,9 +142,9 @@ export default {
   help: {
     title: "使い方ガイド",
 
-    aboutTitle: "Quick Notionとは？",
+    aboutTitle: "Notion Memoとは？",
     aboutBody:
-      "Quick Notionは、テキストをすばやくNotionデータベースに送信するアプリです。思いついたタスクやメモを、Notionを開かずにサッと記録できます。",
+      "Notion Memoは、テキストをすばやくNotionデータベースに送信するアプリです。思いついたタスクやメモを、Notionを開かずにサッと記録できます。",
 
     setupTitle: "初期設定",
     setupIntegrationTitle: "1. Notion Integrationの作成",
@@ -181,7 +181,7 @@ export default {
 
     titlePropTitle: "タイトルプロパティ名について",
     titlePropBody:
-      "Notionデータベースには必ず1つ「タイトル」型のプロパティがあります。Quick Notionはこのプロパティにテキストを書き込みます。",
+      "Notionデータベースには必ず1つ「タイトル」型のプロパティがあります。Notion Memoはこのプロパティにテキストを書き込みます。",
     titlePropBody2:
       "デフォルトでは「Name」ですが、データベースによって異なります。Notionでデータベースを開いて、タイトル列の名前を確認してください。",
     titlePropTip:

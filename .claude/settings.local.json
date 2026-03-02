@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx expo install @react-native-async-storage/async-storage expo-haptics expo-clipboard)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx expo install expo-share-intent@5.1.1 expo-linking expo-constants)",
+      "Bash(npx expo install expo-localization i18next react-i18next)",
+      "Bash(eas build --platform ios --profile production --non-interactive)",
+      "Bash(eas build --platform ios --profile production)",
+      "Bash(gh repo create Claude-QuickNotion --private --source=. --push)"
+    ]
+  }
+}
