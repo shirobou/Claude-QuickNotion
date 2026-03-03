@@ -7,7 +7,18 @@
       "Bash(npx expo install expo-localization i18next react-i18next)",
       "Bash(eas build --platform ios --profile production --non-interactive)",
       "Bash(eas build --platform ios --profile production)",
-      "Bash(gh repo create Claude-QuickNotion --private --source=. --push)"
+      "Bash(gh repo create Claude-QuickNotion --private --source=. --push)",
+      "Bash(gh api repos/shirobou/Claude-QuickNotion/pages -X POST -f \"build_type=workflow\" -f \"source[branch]=master\" -f \"source[path]=/docs\")",
+      "Bash(gh api repos/shirobou/Claude-QuickNotion/pages -X POST -f \"source[branch]=master\" -f \"source[path]=/docs\")",
+      "Bash(gh repo edit shirobou/Claude-QuickNotion --visibility public)",
+      "Bash(gh repo edit shirobou/Claude-QuickNotion --visibility public --accept-visibility-change-consequences)",
+      "Bash(gh api repos/shirobou/Claude-QuickNotion/pages)",
+      "Bash(ls /c/Users/kokor/Desktop/Claude-QuickNotion/*.png /c/Users/kokor/Desktop/Claude-QuickNotion/*.jpg /c/Users/kokor/Desktop/Claude-QuickNotion/*.jpeg)",
+      "Bash(ls /c/Users/kokor/Desktop/Claude-QuickNotion/IMG* /c/Users/kokor/Desktop/Claude-QuickNotion/36* /c/Users/kokor/Desktop/Claude-QuickNotion/screenshot*)",
+      "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; foreach \\($f in Get-ChildItem IMG_369*.PNG\\) { $img = [System.Drawing.Image]::FromFile\\($f.FullName\\); Write-Host $f.Name '':'' $img.Width ''x'' $img.Height; $img.Dispose\\(\\) }\")",
+      "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; $f=''IMG_3693.PNG''; $img=[System.Drawing.Image]::FromFile\\(\\(Resolve-Path $f\\).Path\\); Write-Host $img.Width ''x'' $img.Height; $img.Dispose\\(\\)\")",
+      "Bash(powershell.exe -NoProfile -Command 'Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile\\(\"\"C:\\\\Users\\\\kokor\\\\Desktop\\\\Claude-QuickNotion\\\\IMG_3693.PNG\"\"\\); Write-Host $img.Width \"\"x\"\" $img.Height; $img.Dispose\\(\\)')",
+      "Bash(powershell.exe -NoProfile -Command ':*)"
     ]
   }
 }
