@@ -223,7 +223,7 @@ export default function MainScreen({ onOpenSettings, onOpenHistory, onOpenHelp, 
         {/* Header */}
         <View style={styles.header}>
           <Text style={[styles.title, { color: colors.text }]}>
-            Notion Memo
+            Memo Bridge
           </Text>
           <View style={styles.headerButtons}>
             <TouchableOpacity

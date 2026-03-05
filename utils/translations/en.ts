@@ -142,9 +142,9 @@ export default {
   help: {
     title: "Setup Guide",
 
-    aboutTitle: "What is Notion Memo?",
+    aboutTitle: "What is Memo Bridge?",
     aboutBody:
-      "Notion Memo is an app that quickly sends text to your Notion databases. Jot down tasks and notes without opening Notion.",
+      "Memo Bridge is an app that quickly sends text to your Notion databases. Jot down tasks and notes without opening Notion.",
 
     setupTitle: "Initial Setup",
     setupIntegrationTitle: "1. Create a Notion Integration",
@@ -181,7 +181,7 @@ export default {
 
     titlePropTitle: "About Title Property Name",
     titlePropBody:
-      "Every Notion database has one Title-type property. Notion Memo writes text to this property.",
+      "Every Notion database has one Title-type property. Memo Bridge writes text to this property.",
     titlePropBody2:
       'The default is "Name", but it varies by database. Open the database in Notion and check the title column name.',
     titlePropTip:

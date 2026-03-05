@@ -880,7 +880,7 @@ export default function SettingsScreen({
         {/* About */}
         <View style={styles.section}>
           <Text style={[styles.versionText, { color: colors.textMuted }]}>
-            Notion Memo v1.0.0
+            Memo Bridge v1.0.0
           </Text>
         </View>
       </ScrollView>

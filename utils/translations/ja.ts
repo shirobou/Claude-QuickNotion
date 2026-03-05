@@ -142,9 +142,9 @@ export default {
   help: {
     title: "使い方ガイド",
 
-    aboutTitle: "Notion Memoとは？",
+    aboutTitle: "Memo Bridgeとは？",
     aboutBody:
-      "Notion Memoは、テキストをすばやくNotionデータベースに送信するアプリです。思いついたタスクやメモを、Notionを開かずにサッと記録できます。",
+      "Memo Bridgeは、テキストをすばやくNotionデータベースに送信するアプリです。思いついたタスクやメモを、Notionを開かずにサッと記録できます。",
 
     setupTitle: "初期設定",
     setupIntegrationTitle: "1. Notion Integrationの作成",
@@ -181,7 +181,7 @@ export default {
 
     titlePropTitle: "タイトルプロパティ名について",
     titlePropBody:
-      "Notionデータベースには必ず1つ「タイトル」型のプロパティがあります。Notion Memoはこのプロパティにテキストを書き込みます。",
+      "Notionデータベースには必ず1つ「タイトル」型のプロパティがあります。Memo Bridgeはこのプロパティにテキストを書き込みます。",
     titlePropBody2:
       "デフォルトでは「Name」ですが、データベースによって異なります。Notionでデータベースを開いて、タイトル列の名前を確認してください。",
     titlePropTip:

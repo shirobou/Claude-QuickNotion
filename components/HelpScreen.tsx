@@ -206,7 +206,7 @@ export default function HelpScreen({ onClose }: Props) {
 
         <View style={styles.footer}>
           <Text style={[styles.footerText, { color: colors.textMuted }]}>
-            Notion Memo v1.0.0
+            Memo Bridge v1.0.0
           </Text>
         </View>
       </ScrollView>

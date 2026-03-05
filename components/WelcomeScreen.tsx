@@ -74,7 +74,7 @@ export default function WelcomeScreen({ onComplete }: Props) {
         {/* App Title */}
         <View style={styles.titleSection}>
           <Text style={[styles.appName, { color: colors.text }]}>
-            Notion Memo
+            Memo Bridge
           </Text>
           <Text style={[styles.tagline, { color: colors.textSecondary }]}>
             {t("welcome.tagline")}
