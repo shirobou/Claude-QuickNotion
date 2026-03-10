@@ -18,7 +18,12 @@
       "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; foreach \\($f in Get-ChildItem IMG_369*.PNG\\) { $img = [System.Drawing.Image]::FromFile\\($f.FullName\\); Write-Host $f.Name '':'' $img.Width ''x'' $img.Height; $img.Dispose\\(\\) }\")",
       "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; $f=''IMG_3693.PNG''; $img=[System.Drawing.Image]::FromFile\\(\\(Resolve-Path $f\\).Path\\); Write-Host $img.Width ''x'' $img.Height; $img.Dispose\\(\\)\")",
       "Bash(powershell.exe -NoProfile -Command 'Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile\\(\"\"C:\\\\Users\\\\kokor\\\\Desktop\\\\Claude-QuickNotion\\\\IMG_3693.PNG\"\"\\); Write-Host $img.Width \"\"x\"\" $img.Height; $img.Dispose\\(\\)')",
-      "Bash(powershell.exe -NoProfile -Command ':*)"
+      "Bash(powershell.exe -NoProfile -Command ':*)",
+      "Bash(eas build --platform ios --non-interactive)",
+      "Bash(eas submit --platform ios --non-interactive)",
+      "Bash(eas submit --platform ios --latest)",
+      "WebFetch(domain:expo.dev)",
+      "Bash(git add -A)"
     ]
   }
 }

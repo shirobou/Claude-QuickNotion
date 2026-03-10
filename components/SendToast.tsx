@@ -52,15 +52,12 @@ export default function SendToast({
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 60,
-    left: 20,
-    right: 20,
+    marginHorizontal: 16,
+    marginBottom: 16,
     paddingVertical: 14,
     paddingHorizontal: 20,
     borderRadius: 12,
     alignItems: "center",
-    zIndex: 1000,
   },
   text: {
     color: "#FFFFFF",

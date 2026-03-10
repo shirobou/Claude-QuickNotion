@@ -144,11 +144,6 @@ export default function MainScreen({ onOpenSettings, onOpenHistory, onOpenHelp, 
       style={[styles.container, { backgroundColor: colors.background }]}
     >
       <StatusBar style={mode === "dark" ? "light" : "dark"} />
-      <SendToast
-        visible={showToast}
-        onDismiss={() => setShowToast(false)}
-      />
-
       {/* Destination Picker Modal */}
       <Modal
         visible={showPicker}
@@ -343,6 +338,12 @@ export default function MainScreen({ onOpenSettings, onOpenHistory, onOpenHelp, 
             </Text>
           )}
         </TouchableOpacity>
+
+        {/* Toast: below send button */}
+        <SendToast
+          visible={showToast}
+          onDismiss={() => setShowToast(false)}
+        />
       </KeyboardAvoidingView>
     </SafeAreaView>
   );

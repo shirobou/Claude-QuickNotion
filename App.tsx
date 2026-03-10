@@ -20,6 +20,7 @@ export default function App() {
   const [themeMode, setThemeMode] = useState<ThemeMode>("dark");
   const [isLoading, setIsLoading] = useState(true);
   const [sharedText, setSharedText] = useState("");
+  const [helpReturnToWelcome, setHelpReturnToWelcome] = useState(false);
 
   // 共有インテントの処理
   const { hasShareIntent, shareIntent, resetShareIntent } = useShareIntent();
@@ -103,12 +104,23 @@ export default function App() {
             setShowWelcome(false);
             setShowHelp(true);
           }}
+          onOpenHelp={() => {
+            setShowWelcome(false);
+            setShowHelp(true);
+            setHelpReturnToWelcome(true);
+          }}
         />
       );
     }
 
     if (showHelp) {
-      return <HelpScreen onClose={() => setShowHelp(false)} />;
+      return <HelpScreen onClose={() => {
+        setShowHelp(false);
+        if (helpReturnToWelcome) {
+          setShowWelcome(true);
+          setHelpReturnToWelcome(false);
+        }
+      }} />;
     }
 
     if (showHistory) {

@@ -25,9 +25,10 @@ import { extractDatabaseId } from "../services/notionApi";
 
 type Props = {
   onComplete: () => void;
+  onOpenHelp: () => void;
 };
 
-export default function WelcomeScreen({ onComplete }: Props) {
+export default function WelcomeScreen({ onComplete, onOpenHelp }: Props) {
   const { colors, mode } = useAppTheme();
   const { t } = useTranslation();
   const [token, setToken] = useState("");
@@ -79,6 +80,11 @@ export default function WelcomeScreen({ onComplete }: Props) {
           <Text style={[styles.tagline, { color: colors.textSecondary }]}>
             {t("welcome.tagline")}
           </Text>
+          <TouchableOpacity onPress={onOpenHelp} style={styles.helpLink}>
+            <Text style={[styles.helpLinkText, { color: colors.primary }]}>
+              {t("settings.viewGuide")}
+            </Text>
+          </TouchableOpacity>
         </View>
 
         {/* Section 1: Notion Token */}
@@ -242,6 +248,13 @@ const styles = StyleSheet.create({
   },
   tagline: {
     fontSize: 16,
+  },
+  helpLink: {
+    marginTop: 12,
+  },
+  helpLinkText: {
+    fontSize: 15,
+    fontWeight: "600",
   },
   section: {
     marginBottom: 28,
